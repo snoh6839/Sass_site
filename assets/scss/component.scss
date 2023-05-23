@@ -1,0 +1,20 @@
+//component
+.box {
+  display: flex;
+  &.items-2 {
+    .items {
+      flex: 50%;
+    }
+  }
+  .items {
+    box-sizing: border-box;
+    padding: 50px;
+    font-size: $fontSizeMid;
+    .title {
+      font-size: $titleFontSizeMid;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
